@@ -1,0 +1,3 @@
+- classAdapter----类适配器
+- interfaceAdapter----接口适配器
+- objectAdapter----对象适配器
