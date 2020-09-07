@@ -1,8 +1,5 @@
 package com.DesignPattern.memento;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 备份责任的承担着, 备份的memento对象会存储在这里, 恢复状态的时候从这里取出memento对象
  */
