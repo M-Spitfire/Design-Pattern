@@ -7,6 +7,7 @@ import java.util.Set;
 
 /**
  * 被观察者抽象类
+ * 这里没有采用线程安全的实现, jdk提供的Observable抽象类是线程安全的Vector, 所有方法都有synchronized修饰
  */
 public abstract class Subject {
     protected Set<Observer> observerList;//用于存放观察者

@@ -1,5 +1,8 @@
 package com.DesignPattern.observer.observerSolution;
 
+/**
+ * 天气信息, 天气信息发生改变时, 首先会更新到这里, 然后提醒所有观察者执行相应操作
+ */
 public class WeatherInfo extends Subject{
     private double temperature;
     private double pressure;

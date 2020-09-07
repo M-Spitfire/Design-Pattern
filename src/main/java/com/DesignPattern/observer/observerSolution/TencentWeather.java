@@ -1,5 +1,8 @@
 package com.DesignPattern.observer.observerSolution;
 
+/**
+ * 腾讯天气, 一个监控天气信息变化的观察者
+ */
 public class TencentWeather implements Observer{
     //在被观察者发生变化, 这个方法就会被调用
     @Override
