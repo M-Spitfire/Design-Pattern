@@ -31,7 +31,7 @@ public class Client {
 		SchoolMasterApprover schoolMasterApprover = new SchoolMasterApprover("朱校长");
 	
 	
-		//将责任链连起来
+		//将责任链连成环状, 环状的目的是有时会直接提交给较高权限的审批人审批, 河阳能让请求回到起点开始
 		departmentApprover.setNextApprover(collegeApprover);
 		collegeApprover.setNextApprover(viceSchoolMasterApprover);
 		viceSchoolMasterApprover.setNextApprover(schoolMasterApprover);
